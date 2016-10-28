@@ -2,8 +2,6 @@ require "notion/api/version"
 require 'excon'
 require 'json'
 
-module Notion; end
-
 module Notion::API
 
   def self.connect(**args)
