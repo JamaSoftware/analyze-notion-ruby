@@ -16,7 +16,7 @@ class Notion::ApiTest < Minitest::Test
       "Authorization" => "bogus",
     }
     fake_response = {}
-    request = stub_request(:get, "https://app.usenotion.com/api/v1/echo")
+    request = stub_request(:get, "https://analyze.jamacloud.com/api/v1/echo")
       .with(:headers => expected_headers)
       .to_return(:status => 200, :body => fake_response.to_json, :headers => {"Content-Type" => "application/json"})
 

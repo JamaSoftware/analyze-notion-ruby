@@ -9,7 +9,7 @@ module Notion::API
   end
 
   class Client
-    DEFAULT_ROOT = "https://app.usenotion.com".freeze
+    DEFAULT_ROOT = "https://analyze.jamacloud.com".freeze
     URL_TEMPLATE = "/api/%{version}/%{action}".freeze
     DEFAULT_VERSION = "v1"
 
