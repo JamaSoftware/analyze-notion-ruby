@@ -2,6 +2,8 @@
 
 A Ruby client for submitting data to [Notion](http://usenotion.com).
 
+![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)
+
 ## Installation
 
 Add this line to your application's Gemfile:
